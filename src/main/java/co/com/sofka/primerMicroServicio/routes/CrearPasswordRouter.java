@@ -9,7 +9,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import co.com.sofka.primerMicroServicio.dtos.PasswordDTO;
 import co.com.sofka.primerMicroServicio.useCases.Impl.ImplCrearPasswordUseCase;
 
-import static org.springframework.http.ResponseEntity.ok;
+
 import static org.springframework.web.reactive.function.server.RequestPredicates.POST;
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
